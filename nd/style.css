@@ -1,4 +1,12 @@
 /*style*/
+.maindiv{
+/* margin-right:20px;
+margin-bottom:25px;
+margin-left: 20px;
+ */
+ margin: 30px;
+}
+
 .image-discription{
 	background-color: #00FFFF;
 	float: left;
@@ -12,7 +20,7 @@
 background-color: #DBBBE7;
  border-radius: 10px; 
 padding-bottom: 5px;
-margin-top:10px;
+/* margin-top:5px; */
 }
 
 .image{
