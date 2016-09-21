@@ -4,7 +4,7 @@
 margin-bottom:25px;
 margin-left: 20px;
  */
- margin: 30px;
+ margin: 20px;
 }
 
 .image-discription{
@@ -25,14 +25,17 @@ padding-bottom: 5px;
 
 .image{
 padding-top: 15px;
-padding-bottom: 15px;
-	
+padding-bottom: 15px; 
 }
 
 .new2pageimg{
 	/* text-align: center; */
-	padding-left: 25px;
+	padding-left: 20px;
 }
 .contentpadd{
 	padding: 20px;
+}
+
+.image-discription col-sm-12 col-xs-12{
+	text-align: center;
 }
