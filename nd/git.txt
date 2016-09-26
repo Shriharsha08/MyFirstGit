@@ -1,0 +1,306 @@
+C:\Users\pavilion\MyFirstGit>git add .
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   nd/Kollur2004F.jpg
+        new file:   nd/MyFirstGit
+        new file:   nd/Shri Durgaparameshwari kamalashile.jpe
+        new file:   nd/Sri_Sharadamba.jpg
+        new file:   nd/durgraparameshwari.png
+        new file:   nd/index.html
+        new file:   nd/kateel durgaparameshwari.jpg
+        new file:   nd/mandartidurgapermishwri.jpg
+        new file:   nd/new1.html
+        new file:   nd/page9.html
+        new file:   nd/polaliamma.jpg
+        new file:   nd/s_sharade.jpg
+        new file:   nd/sharadamba.jpg
+        new file:   nd/shri durgaparameshwari bappanadu.jpe
+        new file:   nd/style.css
+
+
+C:\Users\pavilion\MyFirstGit>git commit -m "first commit"
+[gh-pages 30a490b] first commit
+ 15 files changed, 178 insertions(+)
+ create mode 100644 nd/Kollur2004F.jpg
+ create mode 160000 nd/MyFirstGit
+ create mode 100644 nd/Shri Durgaparameshwari kamalashile.jpe
+ create mode 100644 nd/Sri_Sharadamba.jpg
+ create mode 100644 nd/durgraparameshwari.png
+ create mode 100644 nd/index.html
+ create mode 100644 nd/kateel durgaparameshwari.jpg
+ create mode 100644 nd/mandartidurgapermishwri.jpg
+ create mode 100644 nd/new1.html
+ create mode 100644 nd/page9.html
+ create mode 100644 nd/polaliamma.jpg
+ create mode 100644 nd/s_sharade.jpg
+ create mode 100644 nd/sharadamba.jpg
+ create mode 100644 nd/shri durgaparameshwari bappanadu.jpe
+ create mode 100644 nd/style.css
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git push
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 1.58 MiB | 100.00 KiB/s, done.
+Total 17 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Shriharsha08/MyFirstGit.git
+   dc333a2..30a490b  gh-pages -> gh-pages
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git checkout gh-pages
+Already on 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git add .
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    nd/MyFirstGit
+
+
+C:\Users\pavilion\MyFirstGit>git commit -m " commit 001"
+[gh-pages d5c5e52]  commit 001
+ 1 file changed, 1 deletion(-)
+ delete mode 160000 nd/MyFirstGit
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git push
+To https://github.com/Shriharsha08/MyFirstGit.git
+ ! [rejected]        gh-pages -> gh-pages (fetch first)
+error: failed to push some refs to 'https://github.com/Shriharsha08/MyFirstGit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git push
+To https://github.com/Shriharsha08/MyFirstGit.git
+ ! [rejected]        gh-pages -> gh-pages (fetch first)
+error: failed to push some refs to 'https://github.com/Shriharsha08/MyFirstGit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\pavilion\MyFirstGit>cd..
+
+C:\Users\pavilion>git clone https://github.com/Shriharsha08/MyFirstGit.git
+fatal: destination path 'MyFirstGit' already exists and is not an empty directory.
+
+C:\Users\pavilion>git clone https://github.com/Shriharsha08/MyFirstGit.git
+Cloning into 'MyFirstGit'...
+remote: Counting objects: 26, done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 26 (delta 3), reused 16 (delta 1), pack-reused 0
+Unpacking objects: 100% (26/26), done.
+
+C:\Users\pavilion>git checkout gh-pages
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\pavilion>cd MyFirstGit
+
+C:\Users\pavilion\MyFirstGit>git checkout gh-pages
+Already on 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+
+C:\Users\pavilion\MyFirstGit>git push
+Everything up-to-date
+
+C:\Users\pavilion\MyFirstGit>git commit -m " commit 001"
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git add .
+
+C:\Users\pavilion\MyFirstGit>git push
+Everything up-to-date
+
+C:\Users\pavilion\MyFirstGit>git commit -m "first commit"
+[gh-pages 6a1cb7e] first commit
+ 15 files changed, 178 deletions(-)
+ delete mode 100644 nd/Kollur2004F.jpg
+ delete mode 160000 nd/MyFirstGit
+ delete mode 100644 nd/Shri Durgaparameshwari kamalashile.jpe
+ delete mode 100644 nd/Sri_Sharadamba.jpg
+ delete mode 100644 nd/durgraparameshwari.png
+ delete mode 100644 nd/index.html
+ delete mode 100644 nd/kateel durgaparameshwari.jpg
+ delete mode 100644 nd/mandartidurgapermishwri.jpg
+ delete mode 100644 nd/new1.html
+ delete mode 100644 nd/page9.html
+ delete mode 100644 nd/polaliamma.jpg
+ delete mode 100644 nd/s_sharade.jpg
+ delete mode 100644 nd/sharadamba.jpg
+ delete mode 100644 nd/shri durgaparameshwari bappanadu.jpe
+ delete mode 100644 nd/style.css
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git add .
+
+C:\Users\pavilion\MyFirstGit>git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 225 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Shriharsha08/MyFirstGit.git
+   44e75a0..6a1cb7e  gh-pages -> gh-pages
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        nd/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\pavilion\MyFirstGit>git commit -m "first commit11"
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Untracked files:
+        nd/
+
+nothing added to commit but untracked files present
+
+C:\Users\pavilion\MyFirstGit>git add .
+
+C:\Users\pavilion\MyFirstGit>git commit -m "first commit"
+[gh-pages 81b9abf] first commit
+ 14 files changed, 177 insertions(+)
+ create mode 100644 nd/Kollur2004F.jpg
+ create mode 100644 nd/Shri Durgaparameshwari kamalashile.jpe
+ create mode 100644 nd/Sri_Sharadamba.jpg
+ create mode 100644 nd/durgraparameshwari.png
+ create mode 100644 nd/index.html
+ create mode 100644 nd/kateel durgaparameshwari.jpg
+ create mode 100644 nd/mandartidurgapermishwri.jpg
+ create mode 100644 nd/new1.html
+ create mode 100644 nd/page9.html
+ create mode 100644 nd/polaliamma.jpg
+ create mode 100644 nd/s_sharade.jpg
+ create mode 100644 nd/sharadamba.jpg
+ create mode 100644 nd/shri durgaparameshwari bappanadu.jpe
+ create mode 100644 nd/style.css
+
+C:\Users\pavilion\MyFirstGit>git push
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 1.58 MiB | 194.00 KiB/s, done.
+Total 17 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Shriharsha08/MyFirstGit.git
+   6a1cb7e..81b9abf  gh-pages -> gh-pages
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+
+C:\Users\pavilion\MyFirstGit>git add .
+warning: LF will be replaced by CRLF in nd/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in nd/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in nd/jquery.min.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\pavilion\MyFirstGit>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   nd/bootstrap.min.css
+        new file:   nd/bootstrap.min.js
+        modified:   nd/index.html
+        new file:   nd/jquery.min.js
+
+
+C:\Users\pavilion\MyFirstGit>git push
+Everything up-to-date
+
+C:\Users\pavilion\MyFirstGit>git commit -m "first commit"
+[gh-pages 89588a8] first commit
+ 4 files changed, 21 insertions(+), 3 deletions(-)
+ create mode 100644 nd/bootstrap.min.css
+ create mode 100644 nd/bootstrap.min.js
+ create mode 100644 nd/jquery.min.js
+
+C:\Users\pavilion\MyFirstGit>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 62.39 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Shriharsha08/MyFirstGit.git
+   81b9abf..89588a8  gh-pages -> gh-pages
+
+C:\Users\pavilion\MyFirstGit>git status
+
+
+
+git add .
+git status
+git commit -m "first commit"
+git push
+
+https://shriharsha08.github.io/MyFirstGit/nd/new1.html
