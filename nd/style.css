@@ -1,10 +1,13 @@
 /*style*/
 #header{
 background-color:#FFEF6E;
-padding-left: 20px;
+
 font-family: "Times New Roman",Times , serif;
 }
-
+#header h1{
+	padding: 10px;
+	
+}
 #maincontent{
 background-color:#9CD9FF;
 }
