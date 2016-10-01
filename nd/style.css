@@ -1,35 +1,39 @@
 /*style*/
-.maindiv{
- margin-top: 10px;
- margin-bottom:10px;
- margin-left:20px;
- margin-right:20px;
+#header{
+background-color:#FFEF6E;
+padding-left: 20px;
+font-family: "Times New Roman",Times , serif;
 }
 
-.image-discription{
-	background-color: #00FFFF;
-	float: left;
-	border-radius: 10px;
-	padding: 10px;
+#maincontent{
+background-color:#9CD9FF;
 }
 
-.clear{
-	clear: both;
-}
-.TopBg{
-background-color: #DBBBE7;
- border-radius: 10px; 
-padding-bottom: 5px;
-}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+ width: 50%;
+ margin: auto;
+  }
 
-.image{
-text-align: center;
+.headermenu ul{
+list-style-type: none;
 }
-
-
-.contentpadd p{
+  .headermenu li a{
+	  
+	  text-decoration: none;
+  }
+  
+.headermenu li{
+	
+display: inline;
+font-size: 20px;
+padding: 10px 20px;
+font-family: "Times New Roman",Times , serif;
+}
+#footer{
+background-color:#FFEF6E;
+}
+.copyrighttext{
 	font-family: "Times New Roman",Times , serif;
-	 font-size: 20px;
+	padding: 10px 20px;
 }
-
- 
