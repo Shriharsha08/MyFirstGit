@@ -1,42 +1,105 @@
 /*style*/
+.headerstyle{
+	font-weight: bold;	
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 #header{
-background-color:#FFEF6E;
+	background-color:#FFEF6E;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-family: "Times New Roman",Times , serif;
+}
 
-font-family: "Times New Roman",Times , serif;
+#header img {
+	margin-top:20px;
 }
-#header h1{
-	padding: 10px;
-	
-}
+
 #maincontent{
-background-color:#9CD9FF;
+	background-color:#9CD9FF;
 }
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
- width: 50%;
- margin: auto;
-  }
 
 .headermenu ul{
-list-style-type: none;
+	list-style-type: none;
 }
-  .headermenu li a{
-	  
-	  text-decoration: none;
-  }
+
+.headermenu li a{  
+  text-decoration: none;
+}
   
-.headermenu li{
-	
-display: inline;
-font-size: 20px;
-padding: 10px 20px;
-font-family: "Times New Roman",Times , serif;
+.headermenu li{	
+	display: inline;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-family: "Times New Roman",Times , serif;
 }
+
+.description{
+	padding: 10px;
+	font-family: "Times New Roman",Times , serif;
+}
+
+.deviimage{
+	text-align:center;
+	padding: 10px;
+}
+
+.headerimage{
+	text-align: center;
+}
+
 #footer{
-background-color:#FFEF6E;
+	background-color:#FFEF6E;
 }
 .copyrighttext{
 	font-family: "Times New Roman",Times , serif;
 	padding: 10px 20px;
+}
+
+.detailDivHeading{
+    color: #b3002d ;
+    font-weight:bold;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+			   
+}
+
+.detailDivList{
+	font-weight:700;
+}
+#maincontent .img-thumbnail{
+	background-color: #FFEF6E;
+}
+
+
+.detailDivSubHeading{
+	-webkit-text-stroke: 1px black;  
+  text-shadow:
+    3px 3px 0 #707070,
+   -1px -1px 0 #707070,  
+    1px -1px 0 #707070,
+   -1px  1px 0 #707070,
+    1px  1px 0 #707070;
+	color: #575659 ;
 }
